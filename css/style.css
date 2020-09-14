@@ -40,8 +40,9 @@ li {
 #navigation {
     display: flex;
     flex-direction: row;
-    margin: 0px 20%;
-    border-bottom: 5px;
+    margin: 0;
+    margin-bottom: 5px;
+    border-bottom: 5px solid;
     border-color: #70857F;
     /*  
     display: inline-block;
@@ -49,17 +50,12 @@ li {
     */
 }
 #navigation .navBar {
-    font-weight: 100;
+    font-weight: 200;
 }
 
 
 /*Formatting intro div*/
-#hpBanner {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
+
 .intro {
     display: flex;
     flex-direction: row;
@@ -79,6 +75,12 @@ li {
 .hello {
     background-color: #D1EBE4;
     width: 65%;
+}
+.quotes {
+    background-color: #E2F9F3;
+    height: 50px;
+    width: auto;
+    display: inline-block;
 }
 
 /*Formatting case studies*/
@@ -134,7 +136,9 @@ li {
 .seeMore {
     text-align: center;
     margin: auto;
-
+}
+.chevron {
+    width: 40px;
 }
 
 
