@@ -74,13 +74,15 @@ li {
 .hello {
     background-color: #D1EBE4;
     width: 65%;
+    position: relative;
 }
 .quotes {
     background-color: #E2F9F3;
     height: 70px;
     width: 750px;
-    margin-bottom: 5px;
+position: bottom;
 }
+
 
 /*Formatting case studies*/
 .angelCat {
