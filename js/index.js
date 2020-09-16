@@ -1,10 +1,17 @@
+console.log("Your index.js file is loaded correctly!");
+
+$(function() {
+    alert( 'Javascript loading! ... i hope!' );
+});
+
+
 (function($){
     $.fn.extend({ 
         rotaterator: function(options) {
  
             var defaults = {
-                fadeSpeed: 500,
-                pauseSpeed: 100,
+                fadeSpeed: 700,
+                pauseSpeed: 5000,
 				child:null
             };
              
@@ -33,5 +40,5 @@
 })(jQuery);
 
  $(document).ready(function() {
-        $('#rotate').rotaterator({fadeSpeed:500, pauseSpeed:100});
+        $('#rotate').rotaterator({fadeSpeed:700, pauseSpeed:5000});
  });

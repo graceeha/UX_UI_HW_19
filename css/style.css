@@ -9,7 +9,6 @@ div {
    border-radius: 15px; 
    display: flex center;
    padding: 20px;
-   align: center;
 }
 .bottomLine {
     display: block;
