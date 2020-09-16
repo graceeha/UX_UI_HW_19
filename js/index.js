@@ -1,9 +1,10 @@
 console.log("Your index.js file is loaded correctly!");
 
 $(function() {
-    alert( 'Javascript loading! ... i hope!' );
+    alert( 'Pop up for Unit 19 Homework - Design quotes are set to 5 second rotations. ' );
 });
 
+ /*Text Rotator from codepen.io - https://codepen.io/AmruthPillai/pen/axvqB*/
 
 (function($){
     $.fn.extend({ 
@@ -11,7 +12,7 @@ $(function() {
  
             var defaults = {
                 fadeSpeed: 700,
-                pauseSpeed: 5000,
+                pauseSpeed: 4000,
 				child:null
             };
              
@@ -40,5 +41,6 @@ $(function() {
 })(jQuery);
 
  $(document).ready(function() {
-        $('#rotate').rotaterator({fadeSpeed:700, pauseSpeed:5000});
+        $('#rotate').rotaterator({fadeSpeed:700, pauseSpeed:4000});
  });
+

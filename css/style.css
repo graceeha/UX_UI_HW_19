@@ -77,9 +77,9 @@ li {
 }
 .quotes {
     background-color: #E2F9F3;
-    height: 50px;
-    width: auto;
-    display: inline-block;
+    height: 70px;
+    width: 750px;
+    margin-bottom: 5px;
 }
 
 /*Formatting case studies*/
